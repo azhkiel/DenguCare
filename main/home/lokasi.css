@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    background-color: #226BD2;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+}
+
+.highlight {
+    color: #226BD2;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#statusRumah ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
